@@ -70,8 +70,8 @@ class Gridviewpage extends StatelessWidget {
                 children: [
                   Image.network(
                     myPhotos[index]['img']!,
-                    width: 270,
-                    height: 230,
+                    width: 200,
+                    height: 150,
                   ),
                   SizedBox(width: 20),
                   Text(
