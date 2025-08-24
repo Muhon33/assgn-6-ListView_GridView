@@ -41,7 +41,7 @@ class Listviewpage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("ListView"),
+        title: Text("ListView", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.deepPurple,
       ),
       body: ListView.builder(
