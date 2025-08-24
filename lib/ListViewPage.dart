@@ -69,7 +69,7 @@ class Listviewpage extends StatelessWidget {
                     width: 200,
                     height: 130,
                   ),
-                  SizedBox(width: 20),
+                  SizedBox(width: 10),
                   Text(
                     myPhotos[index]['title']!,
                     style: TextStyle(fontSize: 25, color: Colors.white),

@@ -68,16 +68,15 @@ class Gridviewpage extends StatelessWidget {
               color: Colors.deepOrange,
               child: Column(
                 children: [
-                  SizedBox(height: 30),
                   Image.network(
                     myPhotos[index]['img']!,
-                    width: 200,
-                    height: 130,
+                    width: 270,
+                    height: 230,
                   ),
                   SizedBox(width: 20),
                   Text(
                     myPhotos[index]['title']!,
-                    style: TextStyle(fontSize: 18, color: Colors.white),
+                    style: TextStyle(fontSize: 25, color: Colors.white),
                   ),
                 ],
               ),
