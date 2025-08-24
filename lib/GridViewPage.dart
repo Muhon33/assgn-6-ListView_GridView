@@ -76,7 +76,7 @@ class Gridviewpage extends StatelessWidget {
                   SizedBox(width: 20),
                   Text(
                     myPhotos[index]['title']!,
-                    style: TextStyle(fontSize: 25, color: Colors.white),
+                    style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                 ],
               ),
